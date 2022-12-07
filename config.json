@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "최유진"
+  },
+  "text": {
+    "more": "\u003cp\u003e\n타평가자에게 좋아요를 많이 받은 TOP 5 평가 형태소 추출\n\u003cbr\u003e\n​영화 장르와 평가의 연결\n\u003c/p\u003e\n​\n\u003cp\u003e\n노드 크기: Closeness Centrality\n\u003cbr\u003e\n노드 색상: Modularity Class\n\u003c/p\u003e",
+    "intro": "2022년 한국 흥행 영화 50위의 장르와 평가들을 추출해 둘 사이의 관계를 시각화했습니다.",
+    "title": "2022년 국내 영화의 장르와 평가들"
+  },
+  "legend": {
+    "edgeLabel": "장르와 평가의 관계",
+    "colorLabel": "모듈성",
+    "nodeLabel": "장르, 평가"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Closeness Centrality",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
