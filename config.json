@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "최유진"
+  },
+  "text": {
+    "more": "\u003cpre\u003e\n타평가자에게 좋아요를 많이 받은 TOP 5 평가 형태소 추출\n​영화 장르와 평가의 연결\n​\n노드 크기: Closeness Centrality\n노드 색상: Modularity Class\n\n\n✔ ​드라마와 뮤지컬 비교적 다양한 평론\n✔ \u0027액션\u0027 장르 가장 다양한 평가\n\n✔ 가운데에 위치한 노드: 여러 영화 평가에서 언급되는 단어 확인 가능\n➡ 장면, 연기, 사람, 재미, 감정, “음악”, 개봉, 사용, 마지막, 인간, 한국, 아이, 선택 등\n\n2022년 영화에서  음악이 중요한 역할?\n‘개봉’이라는 단어가 왜 많이 사용되었는가?\n➡ 2022년 기존 1에 이어 2가 많이 개봉된 시점\n➡ \u003c공조 2\u003e, \u003c마녀 2\u003e, \u003c범죄도시 2\u003e\n➡ 영화의 개봉을 기다린 평가자들 다수 존재 그리고 작성했을 것이라 추측\n\u003c/pre\u003e",
+    "intro": "2022년 한국 흥행 영화 50위의 장르와 평가들을 추출해 둘 사이의 관계를 시각화했습니다.",
+    "title": "2022년 국내 영화의 장르와 평가들"
+  },
+  "legend": {
+    "edgeLabel": "장르와 평가의 관계",
+    "colorLabel": "모듈성",
+    "nodeLabel": "장르, 평가"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Closeness Centrality",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
